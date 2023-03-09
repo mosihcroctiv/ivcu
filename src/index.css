@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.nav-item{
+    @apply transition ease-out
+    duration-1000
+}
+.nav-item:hover{
+    @apply transition ease-in 
+    underline
+    underline-offset-8
+    decoration-primary
+    decoration-2
+    -translate-y-1
+    duration-700
+}
+
+.nav-item.active{
+    @apply underline
+    underline-offset-8
+    decoration-primary
+    decoration-2
+}
+
+.btn{
+    @apply px-[35px]
+    font-semibold
+    text-white
+    py-[15px]
+    rounded-[8px]
+}
+
+.btn:hover{
+    @apply transition ease-in
+    scale-105
+    duration-700
+}
+
+#contact{
+    /* background-color: rgba(191, 191, 191, 0.1); */
+    background-color: rgba(235, 225, 225, 0.5);
+    border: 1px solid #BFBFBF;
+}
+
+#contact input, textarea{
+    @apply
+    mb-3
+    p-4
+    rounded-[13px]
+    text-[20px]
+    border
+    border-[#BFBFBF]
+     bg-[#E8E3E3]
+     /* bg-white */
+}
+
+.footer a:hover{
+    @apply text-white
+}
