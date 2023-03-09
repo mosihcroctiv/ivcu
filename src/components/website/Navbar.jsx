@@ -20,7 +20,7 @@ const Navbar = () => {
      
     return(
         <>
-        <div className='flex justify-between items-center px-[20px] md:px-[50px] lg:px-[102px] py-[10px] bg-white sticky'>
+        <div className='flex justify-between items-center px-[20px] md:px-[50px] lg:px-[102px] py-[10px] bg-white z-[1000]'>
             <div className='w-[100px]'>
                 <a href="/">
                     <img className='' src={Logo} alt="" />
@@ -46,7 +46,7 @@ const Navbar = () => {
                                 {showdropdown && <RxCaretUp className='mt-1' size={25}/>}
                             </li>
                         </div>
-                        <ul className={showdropdown? 'absolute top-[80px] ml-2 text-[15px]':'hidden'}>
+                        <ul className={showdropdown? 'absolute top-[80px] text-[15px] bg-white p-4':'hidden'}>
                             <a href="/resources/messages">
                                 <li className={location.pathname==='/resources/messages' ? 'nav-item pb-3 flex items-center active':'nav-item pb-3 flex items-center'}>Messages</li>
                             </a>
