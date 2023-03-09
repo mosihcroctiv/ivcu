@@ -5,6 +5,7 @@ import hero_img3 from '../../assets/images/home-bg2.png'
 import hero_img4 from '../../assets/images/home-bg3.png'
 import { useEffect, useState } from "react";
 import Footer from "../../components/website/Footer";
+import Contact from "../../components/website/Contact";
 
 const Index = () => {
 
@@ -25,14 +26,16 @@ const Index = () => {
                 <div className="m-auto mt-[100px]">
                     <p className="text-[230px] text-primary font-bold">IVCU</p>
                     <p className="font-bold text-[48px]">Ibadan Varsity Christian Union</p>
-                    <p className="font-bold text-[24px]">NIFES</p>
+                    <p className="font-bold text-[24px] mb-1">NIFES</p>
                     <div className="w-[194px] bg-[#D9D9D9] bg-opacity-20 text-[24px] p-5 font-bold m-auto">
                         <span>Jesus People</span>
                     </div>
                 </div>
             </div>
         </div>
-
+        <div>
+            <Contact/>
+        </div>
         <div>
             <Footer/>
         </div>

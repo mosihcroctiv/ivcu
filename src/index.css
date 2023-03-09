@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 
+*{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+}
+
 .nav-item{
     @apply transition ease-out
     duration-1000
@@ -31,25 +36,31 @@
     py-[15px]
     rounded-[8px]
 }
+.btn-sm{
+    @apply px-[20px]
+    font-semibold
+    text-white
+    py-[15px]
+    rounded-[8px]
+}
 
-.btn:hover{
+.btn:hover,.btn-sm:hover{
     @apply transition ease-in
     scale-105
     duration-700
 }
 
 #contact{
-    /* background-color: rgba(191, 191, 191, 0.1); */
-    background-color: rgba(235, 225, 225, 0.5);
-    border: 1px solid #BFBFBF;
+    @apply mt-20
 }
 
 #contact input, textarea{
     @apply
     mb-3
-    p-4
-    rounded-[13px]
-    text-[20px]
+    py-2
+    px-4
+    rounded-[10px]
+    text-[16px]
     border
     border-[#BFBFBF]
      bg-[#E8E3E3]
