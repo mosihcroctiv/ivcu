@@ -60,7 +60,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center col-span-2 md:col-span-1'>
+                <div className='flex justify-center sm:col-span-2 md:col-span-1'>
                     <div className='mt-10'>
                         <p className='text-center sm:text-left text-[32px] font-semibold mb-6'>Meet on Whatsapp</p>
                         <div className='mb-5 flex justify-start'>

@@ -58,6 +58,10 @@ const Index = () => {
             <img className="m-auto" src={Logo} alt="" />
             <p className="text-center text-[24px] md:text-[32px] font-semibold mt-5 mb-3">About  Ibadan Varsity Christian Union</p>
             <p className="text-[16px] md:text-[20px] text-center m-auto lg:w-[80%]">Lorem ipsum dolor sit amet consectetur. Nisl ut cras leo sodales at cursus dui. Lectus faucibus arcu enim a enim lectus massa in. Elementum congue quis a augue. Sit sagittis aliquet orci viverra odio nulla aenean cras vitae. Purus egestas mattis mattis leo morbi. Turpis sit mattis sit sed. Sapien fringilla metus velit euismod arcu. Ac et convallis sit nulla enim id adipiscing. Mi ut sit ipsum id tempor egestas pellentesque sit mattis. Vitae aenean posuere orci sagittis nulla congue eu ullamcorper. Diam eu lectus quam ut cras. Lacus bibendum gravida sed non ultricies pellentesque in. Aliquam posuere adipiscing felis consequat facilisis ac volutpat. Ut adipiscing sagittis nam at egestas suspendisse feugiat. Tortor pharetra amet pellentesque egestas sapien.</p>
+
+            <div className="flex justify-center pt-5">
+            <a className="m-auto border border-primary text-deepBlue rounded-[45px] font-semibold px-10 py-3" href="/about">Learn More</a>
+            </div>
         </div>
         <div>
             <Contact/>
