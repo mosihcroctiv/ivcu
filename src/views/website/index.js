@@ -3,10 +3,13 @@ import hero_img1 from '../../assets/images/home-bg.png'
 import hero_img2 from '../../assets/images/home-bg1.png'
 import hero_img3 from '../../assets/images/home-bg2.png'
 import hero_img4 from '../../assets/images/home-bg3.png'
+import events from '../../assets/images/events.png'
+import cpa1 from '../../assets/images/cpa1.png'
 import Logo from  '../../assets/images/logo.png'
 import {GiClothJar} from 'react-icons/gi'
 import {BsFire} from 'react-icons/bs'
 import {FaStarOfDavid} from 'react-icons/fa'
+import {ImQuotesLeft} from 'react-icons/im'
 import { useEffect, useState } from "react";
 import Footer from "../../components/website/Footer";
 import Contact from "../../components/website/Contact";
@@ -54,13 +57,98 @@ const Index = () => {
                 </div>
             </div>
         </div>
-        <div className="pt-[70px] text-deepBlue px-[20px] md:px-[50px] lg:px-[102px]">
+        <div className="pt-[70px] text-deepBlue px-[20px] md:px-[50px] lg:px-[102px] pb-10">
             <img className="m-auto" src={Logo} alt="" />
             <p className="text-center text-[24px] md:text-[32px] font-semibold mt-5 mb-3">About  Ibadan Varsity Christian Union</p>
             <p className="text-[16px] md:text-[20px] text-center m-auto lg:w-[80%]">Lorem ipsum dolor sit amet consectetur. Nisl ut cras leo sodales at cursus dui. Lectus faucibus arcu enim a enim lectus massa in. Elementum congue quis a augue. Sit sagittis aliquet orci viverra odio nulla aenean cras vitae. Purus egestas mattis mattis leo morbi. Turpis sit mattis sit sed. Sapien fringilla metus velit euismod arcu. Ac et convallis sit nulla enim id adipiscing. Mi ut sit ipsum id tempor egestas pellentesque sit mattis. Vitae aenean posuere orci sagittis nulla congue eu ullamcorper. Diam eu lectus quam ut cras. Lacus bibendum gravida sed non ultricies pellentesque in. Aliquam posuere adipiscing felis consequat facilisis ac volutpat. Ut adipiscing sagittis nam at egestas suspendisse feugiat. Tortor pharetra amet pellentesque egestas sapien.</p>
 
             <div className="flex justify-center pt-5">
             <a className="m-auto border border-primary text-deepBlue rounded-[45px] font-semibold px-10 py-3" href="/about">Learn More</a>
+            </div>
+        </div>
+        {/* <div className="pt-[70px]">
+            <p className="text-center m-auto text-[32px] text-deepBlue font-semibold">Events and Programs</p>
+            <div className="relative border border-primary gap-1 overflow-hidden">
+                <div className="w-[350px] h-[350px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                    <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
+                        <div className="text-white m-auto pt-20 w-[70%]">
+                            <p className="text-[32px] font-semibold">Brothers & Sister Weekend</p>
+                            <p className="text-[13px]">8:00am |Saturday| January 29th 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[350px] h-[350px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                    <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
+                        <div className="text-white m-auto pt-20 w-[70%]">
+                            <p className="text-[32px] font-semibold">Brothers & Sister Weekend</p>
+                            <p className="text-[13px]">8:00am |Saturday| January 29th 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[350px] h-[350px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                    <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
+                        <div className="text-white m-auto pt-20 w-[70%]">
+                            <p className="text-[32px] font-semibold">Brothers & Sister Weekend</p>
+                            <p className="text-[13px]">8:00am |Saturday| January 29th 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[350px] h-[350px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                    <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
+                        <div className="text-white m-auto pt-20 w-[70%]">
+                            <p className="text-[32px] font-semibold">Brothers & Sister Weekend</p>
+                            <p className="text-[13px]">8:00am |Saturday| January 29th 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-[350px] h-[350px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                    <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
+                        <div className="text-white m-auto pt-20 w-[70%]">
+                            <p className="text-[32px] font-semibold">Brothers & Sister Weekend</p>
+                            <p className="text-[13px]">8:00am |Saturday| January 29th 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> */}
+        <div className="bg-primary text-5 text-white px-[5px] md:px-[50px] lg:px-[102px] py-10 sm:py-20">
+            <div className="grid sm:grid-cols-2 text-white">
+                <div className=" flex justify-center pb-5 sm:pb-0">
+                    <p className="text-center m-auto w-[70%]">Coming together to fellowship and share in the grace that Christ has given.</p>
+                </div>
+                <div className="flex justify-center border-t-2 sm:border-t-0 sm:border-l-2 border-white">
+                    <div className="mt-5">
+                        <ImQuotesLeft className="ml-5 sm:ml-10" size={50}/>
+                        <p className="text-center m-auto w-[80%] sm:w-[70%]">Not forsaking the assembling of ourselves together, as the manner of some is; but exhorting one another: and so much the more, as ye see the day approaching.
+                        <br/>
+                        Hebrew 10:25
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="h-[450px]" style={{backgroundImage:`url(${cpa1})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+            <div className="bg-black h-full bg-opacity-80 text-white">
+                <div className="grid sm:grid-cols-2 text-center sm:text-left px-[5px] md:px-[50px] lg:px-[102px]">
+                    <div className="m-auto pt-[60px] sm:pt-20">
+                        <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">SUNDAY: 1PM</p>
+                        <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">WEDNESDAY: 6PM</p>
+                        <div className="p-2 bg-[#0025a7]">
+                            <span className="text-[12px] sm:text-[16px]">First Wednesday of the month: Prayer and Fasting</span>
+                        </div>
+                        <div className="h-3 sm:h-5"></div>
+                        <span className="text-[12px] sm:text-[16px] p-2 bg-[#2048D9]">Other Wednesdays: Bible Study</span> 
+                        <div className="h-3 sm:h-5"></div>
+                        <div className="p-2 bg-[#456EFF]">
+                            <span className="text-[12px] sm:text-[16px]">Last Wednesday of the month: Holy Communion</span>
+                        </div>
+                        <div className="h-3 sm:h-0"></div>
+                    </div>
+                    <div className="m-auto mt-10 sm:mt-auto">
+                        <p className="text-[16px] sm:text-[16px]">Location:</p>
+                        <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">CHAPEL OF <br />RESURRECTION</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div>
