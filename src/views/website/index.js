@@ -29,7 +29,7 @@ const Index = () => {
         <div className="hero">
             <div className="w-full h-[595px] overflow-hidden border" style={{backgroundImage:`url(${hero_img})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
             </div>
-            <div className="absolute top-0 text-center text-white w-full h-full z-[0] bg-[#04131B] bg-opacity-90">
+            <div className="absolute top-0 text-center text-white w-full h-[595px] z-[1] bg-[#04131B] bg-opacity-90">
                 <div className="m-auto mt-[100px]">
                     <p className="text-[230px] text-primary font-bold">IVCU</p>
                     <p className="font-bold text-[48px]">Ibadan Varsity Christian Union</p>
