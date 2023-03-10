@@ -38,16 +38,16 @@ const Index = () => {
         </div>
         <div className='bg-primary text-5 text-white px-[20px] md:px-[50px] lg:px-[102px] pt-5 pb-20'>
             <p className="text-center font-bold text-[40px] mb-5">Who we are</p>
-            <div className="flex justify-between items-center">
-                <div className="border border-white rounded-[10px] p-6 flex items-center gap-1 w-[300px]">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 items-center">
+                <div className="m-auto border border-white rounded-[10px] p-6 flex items-center gap-1 w-[250px] md:w-[300px] lg:w-[250px] xl:w-[300px] mb-5">
                     <GiClothJar/>
                     <span>Inspired Vessels</span>
                 </div>
-                <div className="border border-white rounded-[10px] p-6 flex items-center gap-1 w-[300px]">
+                <div className="m-auto border border-white rounded-[10px] p-6 flex items-center gap-1 w-[250px] md:w-[300px] lg:w-[250px] xl:w-[300px] mb-5">
                     <BsFire/>
                     <span>Consecrated</span>
                 </div>
-                <div className="border border-white rounded-[10px] p-6 flex items-center gap-1 w-[300px]">
+                <div className="m-auto border border-white rounded-[10px] p-6 flex items-center gap-1 w-[250px] md:w-[300px] lg:w-[250px] xl:w-[300px] mb-5 sm:col-span-2 lg:col-span-1">
                     <FaStarOfDavid/>
                     <span>Undaunted</span>
                 </div>
