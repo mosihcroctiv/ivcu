@@ -3,6 +3,7 @@ import hero_img1 from '../../assets/images/home-bg.png'
 import hero_img2 from '../../assets/images/home-bg1.png'
 import hero_img3 from '../../assets/images/home-bg2.png'
 import hero_img4 from '../../assets/images/home-bg3.png'
+import Logo from  '../../assets/images/logo.png'
 import {GiClothJar} from 'react-icons/gi'
 import {BsFire} from 'react-icons/bs'
 import {FaStarOfDavid} from 'react-icons/fa'
@@ -52,6 +53,11 @@ const Index = () => {
                     <span>Undaunted</span>
                 </div>
             </div>
+        </div>
+        <div className="pt-[70px] text-deepBlue px-[20px] md:px-[50px] lg:px-[102px]">
+            <img className="m-auto" src={Logo} alt="" />
+            <p className="text-center text-[24px] md:text-[32px] font-semibold mt-5 mb-3">About  Ibadan Varsity Christian Union</p>
+            <p className="text-[16px] md:text-[20px] text-center m-auto lg:w-[80%]">Lorem ipsum dolor sit amet consectetur. Nisl ut cras leo sodales at cursus dui. Lectus faucibus arcu enim a enim lectus massa in. Elementum congue quis a augue. Sit sagittis aliquet orci viverra odio nulla aenean cras vitae. Purus egestas mattis mattis leo morbi. Turpis sit mattis sit sed. Sapien fringilla metus velit euismod arcu. Ac et convallis sit nulla enim id adipiscing. Mi ut sit ipsum id tempor egestas pellentesque sit mattis. Vitae aenean posuere orci sagittis nulla congue eu ullamcorper. Diam eu lectus quam ut cras. Lacus bibendum gravida sed non ultricies pellentesque in. Aliquam posuere adipiscing felis consequat facilisis ac volutpat. Ut adipiscing sagittis nam at egestas suspendisse feugiat. Tortor pharetra amet pellentesque egestas sapien.</p>
         </div>
         <div>
             <Contact/>
