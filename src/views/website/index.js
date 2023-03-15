@@ -4,6 +4,8 @@ import hero_img2 from '../../assets/images/home-bg1.png'
 import hero_img3 from '../../assets/images/home-bg2.png'
 import hero_img4 from '../../assets/images/home-bg3.png'
 import events from '../../assets/images/events.png'
+import bbc from '../../assets/images/bbc.png'
+import af from '../../assets/images/af.png'
 import cpa1 from '../../assets/images/cpa1.png'
 import Logo from  '../../assets/images/logo.png'
 import {GiClothJar} from 'react-icons/gi'
@@ -29,7 +31,7 @@ const Index = () => {
         <div className="hero">
             <div className="w-full h-[595px] overflow-hidden border" style={{backgroundImage:`url(${hero_img})`, backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
             </div>
-            <div className="absolute top-0 text-center text-white w-full h-[595px] z-[1] bg-[#04131B] bg-opacity-90">
+            <div className="absolute top-0 text-center text-white w-full h-[678px] z-[0] bg-[#04131B] bg-opacity-90">
                 <div className="m-auto mt-[100px]">
                     <p className="text-[230px] text-primary font-bold">IVCU</p>
                     <p className="font-bold text-[48px]">Ibadan Varsity Christian Union</p>
@@ -129,7 +131,7 @@ const Index = () => {
         </div>
         <div className="h-[450px]" style={{backgroundImage:`url(${cpa1})`, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
             <div className="bg-black h-full bg-opacity-80 text-white">
-                <div className="grid sm:grid-cols-2 text-center sm:text-left px-[5px] md:px-[50px] lg:px-[102px]">
+                <div className="grid sm:grid-cols-2 text-center sm:text-left px-[5px] md:px-[50px] lg:px-[102px] pb-10">
                     <div className="m-auto pt-[60px] sm:pt-20">
                         <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">SUNDAY: 1PM</p>
                         <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">WEDNESDAY: 6PM</p>
@@ -147,6 +149,32 @@ const Index = () => {
                     <div className="m-auto mt-10 sm:mt-auto">
                         <p className="text-[16px] sm:text-[16px]">Location:</p>
                         <p className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[50px] font-semibold">CHAPEL OF <br />RESURRECTION</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="px-[5px] md:px-[20px] lg:px-[50px] py-10 sm:py-20">
+            <div className="grid grid-cols-2">
+                <div className="flex justify-center mb-10">
+                    <div className="w-[450px]">
+                        <img className="w-full" src={bbc} alt="" />
+                    </div>
+                </div>
+                <div className="flex justify-start">
+                    <div className="w-[430px]">
+                        <p className="text-[32px] font-semibold">BASIC BIBLE CLASS</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat vestibulum in id ultricies vulputate sapien eget. Cursus commodo eget eget convallis. Lorem nunc odio tellus id accumsan cursus nibh. Tempus tortor eget amet volutpat in in. Lectus fames nibh habitant nec purus vel aliquet sit eget. Posuere tempor nulla fringilla risus lorem varius quam sollicitudin. Lacus a ut non tortor sollicitudin tellus pharetra ac. Viverra blandit non risus bibendum. Diam risus odio nulla tellus blandit semper elementum non.</p>
+                    </div>
+                </div>
+                <div className="flex justify-end">
+                    <div className="w-[430px] text-right">
+                        <p className="text-[32px] font-semibold">ALUMINI FAMILY</p>
+                        <p>Lorem ipsum dolor sit amet consectetur. Feugiat vestibulum in id ultricies vulputate sapien eget. Cursus commodo eget eget convallis. Lorem nunc odio tellus id accumsan cursus nibh. Tempus tortor eget amet volutpat in in. Lectus fames nibh habitant nec purus vel aliquet sit eget. Posuere tempor nulla fringilla risus lorem varius quam sollicitudin. Lacus a ut non tortor sollicitudin tellus pharetra ac. Viverra blandit non risus bibendum. Diam risus odio nulla tellus blandit semper elementum non.</p>
+                    </div>
+                </div>
+                <div className="flex justify-center">
+                    <div className="w-[450px] mt-[-100px]">
+                        <img className="w-full" src={af} alt="" />
                     </div>
                 </div>
             </div>
