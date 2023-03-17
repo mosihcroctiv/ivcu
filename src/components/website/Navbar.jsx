@@ -126,7 +126,7 @@ const Navbar = () => {
                     <p>IVCU&copy; all rights reserved</p>
                 </div>
             </div>
-            <div className='sm:hidden text-primary mt-2 cursor-pointer' onClick={handleShow}>
+            <div className='sm:hidden text-primary mt-[17px] cursor-pointer' onClick={handleShow}>
                 <MdClose size={35}/>
             </div>
         </div>
