@@ -95,7 +95,7 @@ const Navbar = () => {
                         </a>
                         <div className='pb-3'>
                             <div className='cursor-pointer' onClick={handleShowdropdown} >
-                                <li className={location.pathname==='/about' ? 'nav-item pb-3 flex items-center active':'nav-item pb-3 flex items-center'}>
+                                <li className={location.pathname==='/resources/messages' || location.pathname==='/resources/gallery' ? 'nav-item pb-3 flex items-center active':'nav-item pb-3 flex items-center'}>
                                     <span>Resources</span>
                                     {!showdropdown && <RxCaretDown className='mt-1' size={25}/>}
                                     {showdropdown && <RxCaretUp className='mt-1' size={25}/>}
