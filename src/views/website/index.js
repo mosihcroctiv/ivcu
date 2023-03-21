@@ -24,7 +24,7 @@ const Index = () => {
    
     return(
         <>
-        <div className="sticky z-[1]">
+        <div className="sticky top-0 z-[1]">
         <Navbar/>
         </div>
         

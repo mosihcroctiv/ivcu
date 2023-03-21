@@ -20,7 +20,7 @@ const Navbar = () => {
      
     return(
         <>
-        <div className='flex justify-between items-center px-[20px] md:px-[50px] lg:px-[102px] py-[10px] bg-white z-[1000]'>
+        <div className='flex justify-between items-center px-[20px] md:px-[50px] lg:px-[102px] py-[15px] bg-white z-[1000] sticky top-0'>
             <div className='w-[60px]'>
                 <a href="/">
                     <img className='' src={Logo} alt="" />
@@ -34,7 +34,7 @@ const Navbar = () => {
                         </li>
                     </a>
                     <a href="/departments">
-                        <li className={location.pathname==='/services' ? 'nav-item active':'nav-item'}>
+                        <li className={location.pathname==='/departments' ? 'nav-item active':'nav-item'}>
                             Departments
                         </li>
                     </a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                 <MdOutlineClose size={35}/>
             </div>
         </div>
-        <div className={show ? 'side-nav absolute left-0 top-0 w-full h-screen sm:w-[250px] bg-white flex justify-between px-[20px] pt-[10px] drop-shadow-lg md:hidden ease-in duration-300':'side-nav absolute left-[-250px] top-0 w-[50px] bg-white flex justify-between px-[20px] pt-[10px] ease-out duration-300'}>
+        <div className={show ? 'side-nav fixed left-0 top-0 w-full h-screen sm:w-[250px] bg-white flex justify-between px-[20px] pt-[10px] drop-shadow-lg md:hidden ease-in duration-300':'side-nav absolute left-[-250px] top-0 w-[50px] h-screen bg-white flex justify-between px-[20px] pt-[10px] ease-out duration-300'}>
             <div className='w-full'>
                 <div className="logo mb-[15px] w-[100px]">
                     <a href='/'>
