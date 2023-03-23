@@ -71,6 +71,20 @@
     /* background-image: url('./assets/images/home-bg.png'); */
 }
 
+.media:hover .flier1{
+    @apply 
+    ease-in
+    ml-[-5px] md:ml-[40px]
+    duration-700
+}
+
+.media:hover .flier2,.media:hover .flier3{
+    @apply 
+    ease-in
+    ml-[-220px] md:ml-[-250px]
+    duration-700
+}
+
 .footer a:hover{
     @apply text-white
 }

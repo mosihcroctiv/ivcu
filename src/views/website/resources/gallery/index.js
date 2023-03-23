@@ -16,10 +16,10 @@ const Gallery = ()=>{
                 </div>
             </div>
         </div>
-        <div className="py-10 px-[5px] md:px-[50px] lg:px-[30px]">
+        <div className="py-10 px-[0px] md:px-[30px] lg:px-[30px] overflow-hidden">
             <div className="grid sm:grid-cols-2 lg:grid-cols-3">
-                <a href="/resources/gallery/more" className="flex justify-center mb-5">
-                    <div className="w-[300px] h-[300px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
+                <a href="/resources/gallery/more" className="flex justify-center m-auto mb-5">
+                    <div className="w-[250px] h-[250px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
                         <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
                             <div className="text-white m-auto pt-20 w-[70%]">
                                 <p className="text-[40px] font-semibold">Sunday Service</p>
@@ -27,24 +27,6 @@ const Gallery = ()=>{
                         </div>
                     </div>
                 </a>
-                <div className="flex justify-center mb-5">
-                    <div className="w-[300px] h-[300px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
-                        <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
-                            <div className="text-white m-auto pt-20 w-[70%]">
-                                <p className="text-[40px] font-semibold">Sunday Service</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex justify-center mb-5">
-                    <div className="w-[300px] h-[300px]" style={{backgroundImage:`url(${events})`, backgroundSize:'contain', backgroundRepeat:'no-repeat'}}>
-                        <div className='w-full h-full' style={{background: 'linear-gradient(107.07deg, #EB6464 4.84%, rgba(54, 69, 204, 0.7) 102.07%)'}}>
-                            <div className="text-white m-auto pt-20 w-[70%]">
-                                <p className="text-[40px] font-semibold">Sunday Service</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
         <Footer/>

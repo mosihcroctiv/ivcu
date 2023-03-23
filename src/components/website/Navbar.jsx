@@ -74,7 +74,7 @@ const Navbar = () => {
                 <MdOutlineClose size={35}/>
             </div>
         </div>
-        <div className={show ? 'side-nav fixed left-0 top-0 w-full h-screen sm:w-[250px] bg-white flex justify-between px-[20px] pt-[10px] drop-shadow-lg md:hidden ease-in duration-300':'side-nav absolute left-[-250px] top-0 w-[50px] h-screen bg-white flex justify-between px-[20px] pt-[10px] ease-out duration-300'}>
+        <div className={show ? 'side-nav fixed left-0 top-0 w-full h-screen sm:w-[250px] bg-white flex justify-between px-[20px] pt-[10px] drop-shadow-lg md:hidden ease-in duration-300 z-[1000]':'side-nav absolute left-[-250px] top-0 w-[50px] h-screen bg-white flex justify-between px-[20px] pt-[10px] ease-out duration-300 z-[1000]'}>
             <div className='w-full'>
                 <div className="logo mb-[15px] w-[100px]">
                     <a href='/'>
